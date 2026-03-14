@@ -6,7 +6,6 @@ import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import codeLogo from './assets/favicon/android-chrome-512x512.png'
 
-
 export default function Navbar({scrollToSection, homeRef, aboutRef, projectRef, contactRef}) {
   return (
     <AppBar position="static" color="primary" sx={{position: "fixed", zIndex: 1}}>
@@ -19,7 +18,7 @@ export default function Navbar({scrollToSection, homeRef, aboutRef, projectRef, 
           <Typography component="div" sx={{ flexGrow: 1, fontSize: ["1.4rem", "1.8rem", "1.8rem", "1.8rem"], fontWeight: "bold"}}>Phillip Moreno</Typography>
           <Box sx={{display: "flex", flexDirection: "row", justifyContent: ["center", "center", "flex-start", "flex-start"]}}>
             <Typography sx={{mr: 1}}>Software Engineer</Typography>
-            <img src={codeLogo} className="logo react" alt="React logo" width={"20px"}/>
+            <img src={codeLogo} className="logo react" alt="React logo" height={"20px"}/>
           </Box>
         </Box>
         <Box>

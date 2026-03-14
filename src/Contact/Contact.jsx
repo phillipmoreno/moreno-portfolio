@@ -25,12 +25,12 @@ export default function Contact() {
   return (
     <Box
       sx={{
-        minHeight: "100vh",
+        minHeight: "80vh",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         px: { xs: 2, sm: 3, md: 6 },
-        py: { xs: 6, md: 6 },
+        py: { xs: 8, md: 6 },
         backgroundColor: "#fffafa",
       }}
     >
