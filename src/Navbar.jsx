@@ -4,7 +4,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
-import codeLogo from '../public/android-chrome-512x512.png'
+import codeLogo from '../public/favicon.png'
 
 export default function Navbar({scrollToSection, homeRef, aboutRef, projectRef, contactRef}) {
   return (
